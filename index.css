@@ -1,0 +1,75 @@
+#skyteam-head2{
+	animation: mymove 2s;
+	position:absolute;
+	opacity:100;
+	top: 70px;
+	right:10%;
+    font-size:20px;
+}
+@keyframes mymove{
+	from{top: 0%;opacity: 0;}
+	to{top: 70px; opacity: 10;} 
+}
+.layui-col-md3{
+	background-color: aqua;
+	height: 50px;
+	border-radius: 10px 0px 0px 10px;
+	line-height: 50px;
+	text-align: left;
+	font-size: 20px;
+	float: left;
+}
+.layui-col-md12{
+	background-color: aqua;
+	height: 50px;
+	border-radius: 10px;
+	line-height: 50px;
+	text-align: right;
+	font-size: 20px;
+	float: right;
+    width:100%;
+}
+.skyteam-alink{
+	display: none;
+}
+img{
+    border-radius:10px;
+  }
+.newarticle{
+    float:right;
+    width:70%;
+    position:absolute;
+    right:0px;
+    padding:5px;
+    border-radius:10px;
+    height:350px;
+    overflow:scroll;
+  }
+.skyteam-warp{
+    background-color:blue;
+  }
+.st-article{
+    background-color:#191919;
+    color:white;
+    border-radius:10px;
+    padding:5px;
+  }
+p{
+    font-size:20px;
+  }
+.stwarp{
+    background-image: linear-gradient( 135deg, #81FFEF 10%, #F067B4 100%);
+    height:350px;
+    border-radius:10px;
+    margin-top:5px;
+  }
+.navbar{
+    margin-top:5px;
+  }
+.newarticle{
+    animation: bodymove 2s;
+  }
+@keyframes bodymove{
+	from{right: -100%;opacity: 0;}
+	to{right: 0%; opacity: 10;} 
+}
